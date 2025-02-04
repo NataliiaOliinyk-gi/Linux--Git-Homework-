@@ -1,0 +1,9 @@
+Mon Nov 25 17:17:30 UTC 2024
+Modified with text editor
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   1 df -h | grep -w / >> newfile.txt 
+   2 cat newfile.txt 
+   3 history | tail -3 >> newfile.txt 
+cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+11

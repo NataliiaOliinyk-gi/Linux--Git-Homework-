@@ -1,0 +1,43 @@
+Задание выполнила на сервере
+
+touch task_Nataliia_Oliinyk.sh  //создала скрипт
+vim task_Nataliia_Oliinyk.sh
+
+
+#!/bin/bash
+#
+CURRENT_DIR="/opt/281024-wdm/Nataliia_Oliinyk"
+mkdir -p $CURRENT_DIR/HW_13
+
+        for i in {1..10}
+do
+                CURRENT_DATE=$(date +"%d.%m.%y")
+                touch $CURRENT_DIR/HW_13/$i'_'$CURRENT_DATE.txt
+done
+
+
+
+
+chmod u+x task_Nataliia_Oliinyk.sh  // дала скрипту доступ на выполнение
+
+crontab -e    //открыла планировщик
+
+
+
+*/15 * * * * /opt/281024-wdm/Nataliia_Oliinyk/task_Nataliia_Oliinyk
+
+// каждые 15 мин выполнение скрипта
+
+
+
+history | tail -7 >> /opt/281024-wdm/Nataliia_Oliinyk/history_hw13.txt  
+// добавила историю команд (мои 7 последних) в файл history_hw13.txt
+
+tar -cf archive_hw13.tar HW_13  // создала архив для папки, в кот. выполнился скрипт
+
+tar -rf archive_hw13.tar history_hw13.txt    // добавила файл history к этому архиву
+
+tar -tvf archive_hw13.tar   // просмотрела содержимое архива
+
+
+

@@ -1,0 +1,35 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+#!/bin/bash
+echo 'Текущая директория, из которой запущен скрипт' $PWD
+  988  cd ..
+  989  vim 100sortscript.sh 
+  990  ./100sortscript.sh 
+  991  vim 100sortscript.sh 
+  992  ./100sortscript.sh 
+  993  vim 100sortscript.sh 
+  994  exit
+  995  vi /tmp/file.txt
+  996  cd /opt/281024-wdm/Daniela
+  997  vi /tmp/file.txt
+  998  df -h |head -3 >> tmp/file.txt
+  999  vi /tmp/file.txt
+ 1000  cd /opt/281024-wdm/Daniela
+ 1001  vi /tmp/file.txt
+ 1002  vi /tmp/natali_file.txt
+ 1003  df -h | head -3 >> /tmp/natali_file.txt 
+ 1004  chmod g+wx /tmp/natali_file.txt 
+ 1005  chmod o-rwx /tmp/natali_file.txt 
+ 1006  ls -l /tmp/natali_file.txt 
+ 1007  touch /opt/281024-wdm/Nataliia_Oliinyk/2myfirstbash.sh
+ 1008  chmod a+x /opt/281024-wdm/Nataliia_Oliinyk/2myfirstbash.sh 
+ 1009  export USER='Nataliia'
+ 1010  vim /opt/281024-wdm/Nataliia_Oliinyk/2myfirstbash.sh 
+ 1011  env
+ 1012  pwd
+ 1013  vim /opt/281024-wdm/Nataliia_Oliinyk/2myfirstbash.sh 
+ 1014  /opt/281024-wdm/Nataliia_Oliinyk/2myfirstbash.sh 
+ 1015  cat /opt/281024-wdm/Nataliia_Oliinyk/2myfirstbash.sh >> /tmp/natali_file.txt 
+ 1016  history
+ 1017  history | tail -30 >> /tmp/natali_file.txt 

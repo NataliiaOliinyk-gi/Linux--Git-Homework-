@@ -1,0 +1,7 @@
+mkdir -p /home/user/start
+touch /home/user/start/1.txt
+echo “Start” > /home/user/start/1.txt
+date >> /home/user/start/1.txt
+mkdir -p /opt/task/
+cp /home/user/start/1.txt /opt/task/start.txt
+ls -la / | tail -4 >> /opt/task/start.txt

@@ -1,0 +1,7 @@
+date >> file.txt
+df -h | grep -w / | awk '{print $5}' | sed 's/%//g' >> file.txt
+history | tail -3 >> file.txt
+cat /etc/passwd | grep -w "cron" >> file.txt
+cat /etc/group | grep -w "root" | wc -l >> file.txt
+vi file.txt
+export_file file.txt

@@ -1,0 +1,25 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+#!/bin/bash
+#
+USER=Nataliia
+
+echo  Скрипт был запущен из директории: $(pwd)
+
+echo $USER
+   14  chmod 777 Hello.txt
+   15  ls -la
+   16  chmod 700 ..
+   17  ls -la
+   18  chmod 700 Hello.txt
+   19  ls -la
+   20  vim
+   21  nano
+   22  ls
+   23  cat script.sh 
+   24  chmod +x script.sh 
+   25  ls -la 
+   26  ./script.sh 
+   27  pwd
+   28  pdd

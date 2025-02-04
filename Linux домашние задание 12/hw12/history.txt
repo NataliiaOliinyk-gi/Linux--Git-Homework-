@@ -1,0 +1,20 @@
+  161  git push
+  162  git push -u origin feature
+  163  cd ..
+  164  git clone git@github.com:NataliiaOliinyk-gi/homework_12.git
+  165  git clone git@github.com:NataliiaOliinyk-gi/homework_12.git hw12
+  166  cd hw12
+  167  git status
+  168  git checkout -b feature
+  169  git add readme.md 
+  170  git commit -m "add rearme"
+  171  git add .gitignore 
+  172  git commit -m "modified .gitignore"
+  173  git push -u origin feature
+  174  git commit --amend -m "update .gitignore amend"
+  175  git checkout main
+  176  git merge feature
+  177  git log
+  178  git push
+  179  history
+  180  history | tail -20 > history.txt
