@@ -5,7 +5,7 @@ target_dir="/opt/281024-wdm/Nataliia_Oliinyk/DirHW20_2"
 
 
 for i in {1..100}; do
-        touch $current_dir/$RANDOM
+        touch "$current_dir/$RANDOM"
 done
 
 
